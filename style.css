@@ -1,0 +1,58 @@
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.header{
+    background-color: #ea0f88;
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #0baaef;
+}
+
+.header .logo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 8px;
+}
+.header .search{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+
+}
+.header .search button{
+color: blue;
+}
+.categories{
+   padding: 20px;
+}
+.catgrid{
+    display: flex;
+    gap:20px ;
+    justify-content: center;
+   flex-wrap: wrap;
+}
+.catitems{
+width: 200px;
+text-align: center;
+}
+.catitems img{
+    width: 80PX;
+    height: 80px;
+    border-radius: 8PX;
+}
+.categories h2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
