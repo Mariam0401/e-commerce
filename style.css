@@ -13,6 +13,20 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.header input{
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 2px;
+}
+.navbar a{
+    color: white;
+    font-size: 16px;
+}
+ .navbar a:hover{
+     color: #0b72e7;
+}
 a{
     text-decoration: none;
     color: #0baaef;
@@ -30,8 +44,24 @@ a{
     border-radius: 20px;
 
 }
-.header .search button{
-color: blue;
+.header  button{
+color: white;
+background: #0baaef;
+border: none;
+border-radius: 10px;
+padding: 5px;
+}
+.header  button:hover{
+    background: white;
+    color: #0baaef;
+}
+.user a{
+    color: #0baaef;
+    font-weight: 800;
+    font-size: small;
+}
+.user a:hover{
+    color: white;
 }
 .categories{
    padding: 20px;
